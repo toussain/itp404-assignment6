@@ -1,0 +1,9 @@
+<h3>Create New Artist</h3>
+{{outlet}}
+
+<br>
+
+<form onsubmit={{action 'createArtist'}}>
+  Name: {{input type="text" value=artistName}}
+  <button type="submit" class="btn btn-primary"> Create Artist </button>
+</form>
